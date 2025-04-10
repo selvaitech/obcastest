@@ -92,7 +92,7 @@ Design Document.
 ## Participants
 
 | :---: | :---: | :---: | :---: |
-|![Altice](assets/img/altice.jpg){: width="100px" height="80px"} |![Nokia](assets/img/nokia.jpg){: width="100px" height="80px"} |![Reply](assets/img/reply.png)
+|![Altice](assets/img/altice.jpg){: width="100px" height="80px"} |![Nokia](assets/img/nokia.jpg){: width="100px" height="80px"} |![Reply](assets/img/reply.png){: width="100px" height="80px"}
 |![FiberCop](assets/img/fibercop.jpg){: width="100px" height="80px"}|![UNH](assets/img/iol.png){: width="100px" height="80px"} |![Vodafone](assets/img/vodafone.png){: width="100px" height="80px"}
 |||
 
