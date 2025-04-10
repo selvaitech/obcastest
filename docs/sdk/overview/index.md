@@ -64,11 +64,11 @@ The table below shows the current (March 2025) APIs that make up the OB-CAS SDK
 
 The description of the APIs can be found [here](../../index.md#introduction)
 
-An overview of the applications developed and currently available can be found [here](../../apps/overview.md#overview)
+An overview of the applications developed and currently available can be found [here](../../apps/index.md#overview)
 
 
 
 
 [<--Introduction](../../index.md#introduction)
 
-[APIs -->](../apis/apis.md)
+[APIs -->](../apis/index.md)

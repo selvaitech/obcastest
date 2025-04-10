@@ -325,8 +325,8 @@ install(self, application_name, category_log_levels_dict=None):
 
 
 An overview of the applications developed and currently available that make use of one or 
-multiple of the above APIs can be found [here](../../apps/overview.md)
+multiple of the above APIs can be found [here](../../apps/index.md)
 
  [<-- Overview](../overview/index.md)
 
- [Apps -->](../../apps/overview.md)
+ [Apps -->](../../apps/index.md)

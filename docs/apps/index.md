@@ -70,6 +70,6 @@ ranges calculated by the threshold setting app.
 
 
 
-<--[APIs ](../sdk/apis/apis.md)
+<--[APIs ](../sdk/apis/index.md)
 
 --> [PON Simulator ](../sdk/pon_simulator/index.md)

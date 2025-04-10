@@ -5,8 +5,8 @@
 
 1. [Introduction](#introduction)
 2. [Overview](./sdk/overview/index.md)
-4. [APIs](./sdk/apis/apis.md)
-5. [Apps](./apps/overview.md)
+4. [APIs](./sdk/apis/index.md)
+5. [Apps](./apps/index.md)
 7. [PON Simulator](./sdk/pon_simulator/index.md)
 8. [Demonstration](demonstrations/alarm_correlation/index.md)
 
@@ -93,7 +93,7 @@ Design Document.
 
 | :---: | :---: | :---: | :---: |
 |![Altice](assets/img/altice.jpg){: width="100px" height="80px"} |![Nokia](assets/img/nokia.jpg){: width="100px" height="80px"} |![Reply](assets/img/reply.png){: width="100px" height="80px"}
-|![FiberCop](assets/img/fibercop.jpg){: width="100px" height="80px"}|![UNH](assets/img/iol.png){: width="100px" height="80px"} |![Vodafone](assets/img/vodafone.png){: width="100px" height="80px"}
+|![FiberCop](assets/img/fibercop.jpg){: width="100px" height="80px"}|![UNH](assets/img/iol.png){: width="100px" height="80px"} |![Vodafone](assets/img/vodafone.png){: width="100px" height="80px"}|![Condor](assets/img/vodafone.png){: width="100px" height="80px"}
 |||
 
 
