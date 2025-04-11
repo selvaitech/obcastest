@@ -284,27 +284,21 @@ Prior to building docker image for the OB-CAS Persister Application, make sure O
 
 ### Start OB-CAS Persister App using Docker-Compose
 
-- **Pre-Requisites**    
+- **Pre-Requisites**
 
-
-     1) OB-BAA must be up and running
-     2) Opensearch and opensearch dashboard applications must be up and running ~/obcas/src/obcas_sdk/opensearch_handler/data/docker-compose.yml
-     3) Update the Env variable OPENSEARCH_HOST, BAA_SERVER_IP in ~/obcas/src/obcas_apps/persister_app/docker-compose.yaml
+     * OB-BAA must be up and running
+  
+     * Opensearch and opensearch dashboard applications must be up and running ~/obcas/src/obcas_sdk/opensearch_handler/data/docker-compose.yml
+  
+     * Update the Env variable OPENSEARCH_HOST, BAA_SERVER_IP in ~/obcas/src/obcas_apps/persister_app/docker-compose.yaml
      
-Note: 
-         Update the correct IP address of OB-BAA, OPENSEARCH containers
+     * **Note: Update the correct IP address of OB-BAA, OPENSEARCH containers**
 
 
 - **Starting OB-CAS Persister App**
-~~~
-    cd obcas/src/obcas_apps/persister_app
-    docker-compose up -d
-~~~    
-Note: As soon as the container is started, it will subscribe to ALARM stream. 
-Whenever an alarm is received Persiser app parses the alarm and push it to opensearch DB.
-    
-       
-
+    * Navigate to the directory **cd obcas/src/obcas_apps/persister_app**
+    * Start docker container by running command **docker-compose up -d**
+    * **Note: As soon as the container is started, it will subscribe to ALARM stream. Whenever an alarm is received Persister app parses the alarm and push it to opensearch DB.**
 
 
 [<--Back to the Applications Overview](../index.md)

@@ -238,21 +238,22 @@ Prior to building docker image for the OB-CAS Alarm Correlation Application, mak
 
 - **Pre-Requisites**
 
-1) OB-BAA must be up and running
-2) Opensearch and opensearch dashboard applications must be up and running ~/obcas/src/obcas_sdk/opensearch_handler/data/docker-compose.yml
-3) OB-CAS Persister App must be up and running as well  ~/obcas/src/obcas_apps/persister/docker-compose.yaml
-Update the Env variable OPENSEARCH_HOST, BAA_SERVER_IP in ~/obcas/src/obcas_apps/alarm_correlation/docker-compose.yaml
-Note: 
-    Update the correct IP address of OB-BAA, OPENSEARCH containers
+  * OB-BAA must be up and running
+  
+  * Opensearch and opensearch dashboard applications must be up and running ~/obcas/src/obcas_sdk/opensearch_handler/data/docker-compose.yml
+  
+  * OB-CAS Persister App must be up and running as well  ~/obcas/src/obcas_apps/persister/docker-compose.yaml
+  
+  * Update the Env variable OPENSEARCH_HOST, BAA_SERVER_IP in ~/obcas/src/obcas_apps/alarm_correlation/docker-compose.yaml
+  
+  * **Note: Update the correct IP address of OB-BAA, OPENSEARCH containers**
 
 
 - **Starting OB-CAS Alarm Correlation App**
 
-~~~
-    cd obcas/src/obcas_apps/alarm_correlation
-    docker-compose up -d    
-~~~
-
+    * Navigate to the directory **cd obcas/src/obcas_apps/alarm_correlation**
+  
+    * Execute the command to start docker container **docker-compose up -d**
 
 [<--Back to the Applications Overview](../index.md)
 

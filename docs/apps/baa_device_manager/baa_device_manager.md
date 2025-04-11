@@ -51,27 +51,30 @@ Prior to building docker image for the OB-CAS BAA Device Manager Application, ma
 ~~~
 
 ### Start OB-BAA Device Manager App using Docker-Compose
+
 - **Pre-Requisites**
 
-  1) OB-BAA must be up and running 
-  2) Update the Env variable BAA_SERVER_IP in ~/obcas/src/obcas_apps/baa_device_manager/docker-compose.yaml
-  Note: 
-      Update the correct IP address of OB-BAA container
+  * OB-BAA must be up and running
+
+  * Update the Env variable BAA_SERVER_IP in ~/obcas/src/obcas_apps/baa_device_manager/docker-compose.yaml
+  
+  * **Note: Update the correct IP address of OB-BAA container**
 
 
 - **Starting BAA Device Manager app**
 
-  1) Navigate to baa_device_manager directory 'cd obcas/src/obcas_apps/baa_device_manager'
-  2) Run the command 'docker-compose up -d'
+  * Navigate to baa_device_manager directory **cd obcas/src/obcas_apps/baa_device_manager**
+  
+  * Run the command **docker-compose up -d**
 
 
 - **Launching BAA Device Manager app**
 
-  1) Launch any Browser
-  2) open the URL 'http://<IP_ADDRESS>:8501'
+  * Launch any Browser
+  
+  * Open the URL 'http://<IP_ADDRESS>:8501'
 
-    Note: 
-    IP_ADDRESS = ip address of the server/machine where the baa_device_manager app is running
+  * **Note: IP_ADDRESS = ip address of the server/machine where the baa_device_manager app is running**
 
 
 

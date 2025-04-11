@@ -80,29 +80,31 @@ for avoiding CORS problems.
 - **Pre-Requisites**
 
 
-   1) OB-BAA must be up and running
-   2) Opensearch and opensearch dashboard applications must be up and running ~/obcas/src/obcas_sdk/opensearch_handler/data/docker-compose.yml
-   3) OB-CAS Persister App must be up and running as well  ~/obcas/src/obcas_apps/persister/docker-compose.yaml
-   4) OB-CAS Alarm Correlation App must be up and running as well  ~/obcas/src/obcas_apps/visualizer-app/visualizer-app-compose.yaml
-   Update the Env variable OPENSEARCH_HOST, BAA_SERVER_IP in the corresponding yaml file(s)
-   Note: 
-     Update the correct IP address of OB-BAA, OPENSEARCH containers
+   * OB-BAA must be up and running
+
+   * Opensearch and opensearch dashboard applications must be up and running ~/obcas/src/obcas_sdk/opensearch_handler/data/docker-compose.yml
+
+   * OB-CAS Persister App must be up and running as well  ~/obcas/src/obcas_apps/persister/docker-compose.yaml
+
+   * OB-CAS Alarm Correlation App must be up and running as well  ~/obcas/src/obcas_apps/visualizer-app/visualizer-app-compose.yaml
+
+   * Update the Env variable OPENSEARCH_HOST, BAA_SERVER_IP in the corresponding yaml file(s)
+
+   * **Note: Update the correct IP address of OB-BAA, OPENSEARCH containers**
 
 
 - **Starting OB-CAS Alarm Correlation Visualizer App**
 
-~~~
-    cd /obcas/src/obcas_apps/visualizer-app/
-    docker-compose -f visualizer-app-compose.yaml up
-    
-    (If you want to run the app on the background use -d flag)
-    
-~~~
+    * Navigate to the directory **cd /obcas/src/obcas_apps/visualizer-app/**
+
+    * Execute the command to start docker container **docker-compose -f visualizer-app-compose.yaml up**
+
+    * **Note:If you want to run the app on the background use -d flag**
+
 
 - **Accessing the visualizer**
 
-To access this application you must open a web browser and access to the url: https://SERVER_IP/alarms-correlation
-
+    * To access this application you must open a web browser and access to the url: https://SERVER_IP/alarms-correlation
 
 
 
